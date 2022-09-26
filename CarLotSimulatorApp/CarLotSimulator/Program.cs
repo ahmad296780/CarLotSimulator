@@ -25,8 +25,11 @@ namespace CarLotSimulator
             //Call each of the methods for each car
 
             Car car1 = new Car();
+            Console.WriteLine(CarLotParking.numberOfCars);
             Car car2 = new Car();
+            Console.WriteLine(CarLotParking.numberOfCars);
             Car car3 = new Car();
+            Console.WriteLine(CarLotParking.numberOfCars);
             
             car1.Make = "toyota";
             car1.Model = "camry";
